@@ -80,6 +80,46 @@ echo $OUTPUT->doctype() ?>
             		echo $OUTPUT->course_content_header();
 					if ($carousel_pos=='0') require_once(dirname(__FILE__).'/includes/carousel.php');
             		echo $OUTPUT->main_content();
+		?>
+					<?php
+					$categories = theme_lambda_get_new_courses();
+					foreach ($categories as $key => $cat){
+						$courses = $cat['course'];
+						?>
+						<h3><?php echo $cat['category_name']; ?></h3>
+
+						<div class="row-fluid">
+							<ul class="thumbnails teca-courses">
+								<?php
+								$i = 1;
+								foreach ($courses as $course){
+									?>
+									<li class=" course-box-height course-item span3 <?php if($i % 4 == 1) echo 'span-first'; ?>">
+										<div class="avatar course-box">
+											<a href="<?php echo $course['url']; ?>">
+												<img src="<?php echo $course['image']; ?>" alt="">
+											</a>
+										</div>
+										<div class="caption">
+											<div class="title"><a href="<?php echo $course['url']; ?>"><?php echo $course['name']; ?></a></div>
+											<div class="summary">
+												<?php echo substr($course['summary'], 0, 200) .'...'; ?>
+											</div>
+										</div>
+										<div class="ctr">
+											<div class="pull-left"><a class="btn btn-primary" href="<?php echo $course['url']; ?>">Học ngay</a></div>
+											<!--											<div class="pull-right"><a href=""><i class="fa fa-heart"></i>120</a></div>-->
+										</div>
+									</li>
+									<?php $i++; } ?>
+							</ul>
+						</div>
+
+						<?php
+					}
+
+					?>
+					<?php
             		echo $OUTPUT->course_content_footer();
 					if ($carousel_pos=='1') require_once(dirname(__FILE__).'/includes/carousel.php');
             	?>

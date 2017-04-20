@@ -261,6 +261,33 @@
     // Course wrapper start.
     echo html_writer::start_tag('div', array('class'=>'course-content'));
 
+// Course wrapper start.
+## TAB
+if($PAGE->user_allowed_editing())
+    echo '<ul class="nav nav-tabs tecatab" role="tablist">
+      <li class="active"><a href="#overview" role="tab" data-toggle="tab">Tổng quan</a></li>
+      <li><a href="#content" role="tab" data-toggle="tab">Nội dung</a></li>
+      <li><a href="#user_enrolled" role="tab" data-toggle="tab">Danh sách thành viên</a></li>
+      <li><a href="#teacher" role="tab" data-toggle="tab">Thông tin giảng viên</a></li>
+    </ul>';
+else
+    echo '<ul class="nav nav-tabs tecatab" role="tablist">
+      <li class="active"><a href="#overview" role="tab" data-toggle="tab">Tổng quan</a></li>
+      <li><a href="#content" role="tab" data-toggle="tab">Nội dung</a></li>
+      <li><a href="#annoucement" role="tab" data-toggle="tab">Thông báo</a></li>
+    </ul>';
+echo '<div class="tab-content teca-tab-content">';
+
+##Start tab content
+$highlight = $DB->get_records_select('course', 'category =?', array($course->category), '', 'id, fullname, summary', 0, 4);
+require "teca_external/overview.php";
+require "teca_external/user_enrolled.php";
+
+//region Content
+echo '  <div class="tab-pane" id="content">';
+echo html_writer::start_tag('div', array('class' => 'course-content'));
+
+
     // make sure that section 0 exists (this function will create one if it is missing)
     course_create_sections_if_missing($course, 0);
 

@@ -672,3 +672,53 @@ function theme_lambda_page_init(moodle_page $page) {
 	$page->requires->jquery_plugin('camera_slider', 'theme_lambda');
     $page->requires->jquery_plugin('jquery.bxslider', 'theme_lambda'); 
 }
+
+/*
+ * Get new courses of all category
+ * MaiDT
+ */
+function theme_lambda_get_new_courses(){
+    global $DB, $CFG;
+    $categories = $DB->get_records_select('course_categories', 'parent = ? and visible = ?', array(0, 1), '', 'id, name');
+    $data = array();
+    foreach ($categories as $cat){
+        $catId = $cat->id;
+        $courses = $DB->get_records_select('course', 'category =?', array($catId), '', 'id, fullname, summary', 0, 4);
+        if(!empty($courses)){
+            $data[$catId]['category_name'] = $cat->name;
+            foreach ($courses as $course) {
+                $courseurl = new moodle_url('/course/view.php', array('id' => $course->id));
+                $data[$catId]['course'][] = array(
+                    'name' => $course->fullname,
+                    'summary' => $course->summary,
+                    'image' => getCourseSummaryFile($course),
+                    'url' => $courseurl
+                );
+            }
+        }
+
+    }
+    return $data;
+}
+
+
+/***
+ * Show Avatar Of Course Detail
+ * VIETNH
+ * @param $course
+ * @return string
+ * @throws dml_missing_record_exception
+ * @throws dml_multiple_records_exception
+ */
+function getCourseSummaryFile($course){
+    global $DB,$CFG;
+    $instance = $DB->get_record_sql("select id from {context} where contextlevel = ? and instanceid  = ?", array(CONTEXT_COURSE, $course->id));
+    $instanceId = $instance->id;
+    $file = $DB->get_record_sql("SELECT * FROM {files} WHERE contextid = ? and filearea = ? and filesize != ?", array($instanceId, 'overviewfiles', 0));
+    if($file){
+        $imagepath = '/' .$file->contextid .'/' . $file->component .'/' .$file->filearea .$file->filepath .$file->filename;
+        $imageurl = file_encode_url($CFG->wwwroot . '/pluginfile.php', $imagepath, false);
+        return $imageurl;
+    }
+    else return "";
+}
