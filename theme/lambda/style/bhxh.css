@@ -1,0 +1,175 @@
+/* ==========	STYLE FOR LOGIN FORM =============== */
+.loginbox .loginform .form-label{
+    float: none;
+    padding-top: 5px;
+    text-align: left;
+    width: auto;
+}
+.loginbox .loginform .form-input{
+    background: #fff none repeat scroll 0 0;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    float: none;
+    padding: 8px;
+    width: auto;
+}
+.loginbox .loginform .form-input input {
+    border: medium none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.loginbox #login {
+    background: #fff;
+    padding: 25px 25px 45px;
+    position: relative;
+}
+.loginbox #login .form-input{
+    border-bottom: dotted 1px #ccc;
+    padding: 0 0 2px 0;
+    margin-bottom: 8px;
+}
+
+.loginbox .loginpanel .subcontent{
+    max-width: 500px;
+    margin:auto;
+}
+.loginbox .loginsub {
+    max-width: 500px;
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+}
+.loginbox .loginpanel .desc {
+    font-style: italic;
+    margin-top: 20px;
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6, .back-to-top, .socials p, #socialheading, .forumpost .subject {
+    font-family: "Segoe UI","Ubuntu", sans-serif;
+    color: #555;
+}
+.loginbox #loginbtn {
+    margin: 20px auto;
+    width: 100%;
+}
+.loginbox .forgetpass {
+    background-color: #ddd;
+    bottom: 0;
+    left: 0;
+    padding: 8px 0;
+    position: absolute;
+    width: 100%;
+}
+.loginbox .forgetpass > a {
+    padding-left: 25px;
+}
+a.singinprovider .social-button.google {
+    background-color: #dc4e41;
+}
+a.singinprovider .social-button.facebook {
+    background-color: #3b5998;
+}
+a.singinprovider .social-button {
+    text-align: center;
+    background: #ccc;
+    display: inline-block;
+    text-align: left;
+    min-width: 185px;
+    color: #fff;
+    padding: 7px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    transition: background-color 0.15s;
+}
+.social-button {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: #ccc;
+    display: inline-block;
+    text-align: left;
+    min-width: 185px;
+    color: #fff;
+    padding: 7px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    transition: background-color 0.15s;
+}
+.social-button.google {
+    background-color: #dc4e41;
+}
+.social-button.facebook {
+    background-color: #3b5998;
+}
+
+a.singinprovider .social-button.facebook::before {
+    content: "\f09a";
+}
+a.singinprovider .social-button::before {
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: -7px 10px -7px -7px;
+    padding: 7px;
+    text-indent: 0;
+    vertical-align: bottom;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    min-width: 24px;
+    line-height: unset;
+    text-align: center;
+    content: "\f090";
+}
+.social-button.facebook::before {
+    content: "\f09a";
+}
+.social-button::before {
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: -7px 10px -7px -7px;
+    padding: 7px;
+    text-indent: 0;
+    vertical-align: bottom;
+    font-size: 22px;
+    position: relative;
+    top: 0;
+    display: inline-block;
+    font-family: "googleoauth2-icomoon";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    min-width: 24px;
+    line-height: 1;
+    text-align: center;
+    content: "\f090";
+}
+/* ==========	STYLE FOR COURSE VIEW =============== */
+
+.content h3.sectionname {
+    padding: 8px 0;
+    color: #666;
+    border-color: #fff #fff #fff #e2a500;
+    border-style: solid;
+    border-width: 1px 1px 1px 3px;
+    padding-left: 4px;
+    margin-top: 0;
+}
+.course-content ul li.section{
+    padding-top: 10px;
+    background-color: #fff;
+}
+.span-first{
+    margin-left: 0px !important;
+    min-height: 1px !important;
+}
+.course-box-height{
+    height:300px !important ;
+}
+.userprofile .profile_tree section{
+    background-color: #fff;
+}
