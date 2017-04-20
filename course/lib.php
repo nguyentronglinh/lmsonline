@@ -4037,3 +4037,10 @@ function course_check_module_updates_since($cm, $from, $fileareas = array(), $fi
 
     return $updates;
 }
+
+/**
+ * @param $courseId
+ */
+function get_user_enrolled($courseId){
+
+}
