@@ -87,9 +87,9 @@ $THEME->layouts = array(
     ),
     // My dashboard page.
     'mydashboard' => array(
-        'file' => 'columns3.php',
-        'regions' => array('side-pre', 'side-post', 'footer-left', 'footer-middle', 'footer-right'),
-        'defaultregion' => 'side-post',
+        'file' => 'columns4.php',
+        'regions' => array('side-pre', 'footer-left', 'footer-middle', 'footer-right', 'hidden-dock'),
+        'defaultregion' => 'hidden-dock',
         'options' => array('langmenu'=>true),
     ),
     // My public page.

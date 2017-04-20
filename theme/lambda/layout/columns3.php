@@ -80,7 +80,7 @@ echo $OUTPUT->doctype() ?>
                     echo $OUTPUT->course_content_footer();
                     ?>
                 </section>
-                <?php 
+                <?php
 				if ($standardlayout) {echo $OUTPUT->blocks('side-pre', 'span4 desktop-first-column pull-left');}
 				else {echo $OUTPUT->blocks('side-pre', 'span4 desktop-first-column pull-right');}
 				?>
@@ -88,7 +88,7 @@ echo $OUTPUT->doctype() ?>
         </div>
         <?php echo $OUTPUT->blocks('side-post', 'span3'); ?>
     </div>
-    
+
     <!-- End Main Regions -->
 
     <a href="#top" class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x"></i><p><?php print_string('backtotop', 'theme_lambda'); ?></p></a>
@@ -130,7 +130,7 @@ jQuery(document).ready(function() {
             jQuery('.back-to-top').fadeOut(duration);
         }
     });
-    
+
     jQuery('.back-to-top').click(function(event) {
         event.preventDefault();
         jQuery('html, body').animate({scrollTop: 0}, duration);

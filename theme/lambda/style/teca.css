@@ -164,3 +164,7 @@
 .mod-slide .ctr .item{text-align: center}
 .mod-slide .ctr .item a{margin-right: 8px}
 .mod-slide .editarea{display: none;text-align: center;padding-top: 5px}
+
+.hidden{
+    display: none;
+}
