@@ -173,3 +173,220 @@ a.singinprovider .social-button::before {
 .userprofile .profile_tree section{
     background-color: #fff;
 }
+/*linh them css*/
+.container-available-course #courseTabContent {
+    margin-top: 25px;
+}
+.tab-content>.active {
+display: block;
+}
+.tab-content>.tab-pane {
+display: none;
+}
+.fade.in {
+    opacity: 1;
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+#enrol-course-list .container-available-course .coursebox {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px #ddd;
+    margin-top: 0;
+    padding: 10px 0;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+#enrol-course-list .container-available-course .coursebox .course-image {
+    display: block;
+}
+.col-sm-3 {
+    width: 60%;
+}
+.col-sm-9 {
+    width: 60%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+.quizattemptcounts a, .resourceworkaround a, .introattachments-image div a, .box a, .assignment-info-fix a, .lastcol a, .noti-content a {
+    color: #187bb2;
+}
+.noti-content a {
+    color: #337ab7;
+}
+.btn-el-reg {
+    color: #fff !important;
+    float: left;
+    margin-top: 5px;
+    background-color: #187bb2;
+    border-color: #187bb2;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a {
+    color: #337ab7;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.el-badge {
+    float: right;
+    background-color: #187bb2;
+    padding: 18px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    text-align: center;
+}
+.el-badge {
+    width: 50px;
+    height: 20px;
+}
+.el-sidebar {
+    background-color: #ececec;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+.el-sidebar .el-sidebar-heading {
+    margin-top: 0;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    color: #187bb2;
+    text-align: left;
+    border-bottom: solid 1px #ddd;
+    font-size: 20px;
+    font-weight: 500;
+}
+#enrol-course-list .container-available-course .el-profile-block {
+    background-color: #ececec;
+    border-radius: 2px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.col-md-7 {
+    width: 56.33333333%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-sm-7 {
+    width: 56.33333333%;
+}
+#enrol-course-list .container-available-course .el-profile-block .el-profile-info label {
+    margin-left: 0;
+    text-transform: uppercase !important;
+    font-size: 23px;
+    font-weight: 500;
+}
+#enrol-course-list .container-available-course .el-profile-block .el-profile-info label, #enrol-course-list .container-available-course .el-profile-block .el-profile-info a {
+    display: block;
+}
+label {
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 0px;
+}
+#enrol-course-list .container-available-course .el-profile-block .el-certificate {
+    display: table;
+    position: relative;
+    text-align: right;
+}
+.col-md-5 {
+    width: 43.66666667%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-sm-5 {
+    width: 43.66666667%;
+}
+
+#enrol-course-list .container-available-course .el-profile-block .el-certificate .certificate-img {
+    float: right;
+}
+#enrol-course-list .container-available-course .el-profile-block .el-certificate .certificate-img, #enrol-course-list .container-available-course .el-profile-block .el-certificate .certificate-info {
+    display: table-cell;
+    vertical-align: middle;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+#enrol-course-list .container-available-course .el-profile-block .el-certificate .certificate-info {
+    text-align: left;
+}
+#enrol-course-list .container-available-course .el-profile-block .el-certificate .certificate-img, #enrol-course-list .container-available-course .el-profile-block .el-certificate .certificate-info {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/**/
+ul#enroltabs {
+    border-bottom: solid 1px #ddd;
+    margin-left: 0 !important;
+}
+.noti-content-main ul.nav-tabs {
+    margin: 0;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+ul, ol {
+    padding: 0;
+    margin: 0 0 10px 25px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ul#enroltabs>li {
+    margin-right: 15px;
+}
+.nav-tabs > li, .box.message .messagearea .messagehistory .messagehistorytype span.visible, .box.message .messagearea .messagehistory .messagehistorytype a.visible {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}

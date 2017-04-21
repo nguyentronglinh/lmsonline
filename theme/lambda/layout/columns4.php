@@ -68,16 +68,89 @@ echo $OUTPUT->doctype() ?>
 //                echo $OUTPUT->course_content_footer();
                 ?>
                 </div>
-            <section id="region-main" class="span8">
-                    <article class="" >
-                        <header class="coursename">
+            <section id="region-main" class="span6">
+                <link rel="stylesheet" href="http://localhost/lmsonline-master/theme/lambda/style/bhxh.css">
+                <!--add-->
+                <div class="el-profile-block clearfix" style="background-color: #ececec; padding-left: 10px;">
+                    <div class="col-sm-7 col-md-7 el-profile-info">
+                        <label class="profile-info-username" for="" style="font-size: 25px;">Quản trị Thành viên</label>
+                        <a class="profile-info-link" href="http://localhost/lmsonline-master/user/profile.php?id=2&amp;returnto=profile" style="font-size: 18px;">
+                            <i  class="fa fa-pencil-square-o" aria-hidden="true" ></i>Chỉnh sửa thông tin cá nhân</a>
+                    </div>
+                    <div class="col-sm-5 col-md-5 el-certificate">
+                        <img class="certificate-img" src="http://localhost/lmsonline-master/theme/lambda/pix/certificate_icon.png" >
+                        <div class="certificate-info">
+                            <p>
+                                <strong>Thông tin chung</strong>
+                                <br> Chưa có khóa học hoàn thành
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div style="height: 20px;"></div>
+                <ul id="enroltabs" class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a id="0" role="tab" data-toggle="tab" aria-controls="tab-content-1" aria-expanded="true" href="#tab-content-1">Chương trình học</a>
+                    </li>
+                    <li role="presentation" class="">
+                        <a id="1" role="tab" data-toggle="tab" aria-controls="tab-content-2" aria-expanded="false" href="#tab-content-2">Khóa học đã hoàn thành</a>
+                    </li>
+                </ul>
+                <!---->
+                <div role="tabpanel" id="tab-content-1" class="tab-pane fade active in" aria-labelledby="0-tab">
+                    <article class="" data-courseid="2" id="tab-content-1">
+                        <div class="coursename">
                             <h3><a class="" href="http://localhost/daotaotructuyen/course/view.php?id=2">Khóa học bồi dưỡng nghiệp vụ thu chi ngân sách</a><span class="badge el-badge">0%</span></h3>
+                        </div>
+                        <section class="row">
+                            <div class="course-image col-sm-3" style="width: 25%;">
+                                <a class="" href="http://localhost/lmsonline-master/user/profile.php?id=2">
+                                    <img class="course-img" src="http://localhost/lmsonline-master/theme/lambda/pix/thumb.png" width="100px;">
+                                </a>
+                            </div>
+                            <div class="summary col-sm-9" style=" ">
+                                <p>Hiện nay, việc tổ chức các lớp quản lý nhà nước dành cho đối tượng cán bộ, công chức là yêu cầu rất cấp bách đối với công tác cải cách hành chính.  [...]</p>
+                                <a class="btn btn-primary btn-el-reg" href="http://localhost/lmsonline-master/user/profile.php?id=2">Học ngay</a>
+                            </div>
+                        </section
+                    </article>
+                    <article class="" data-courseid="3" id="tab-content-1">
+                        <header class="coursename">
+                            <h3><a class="" href="http://localhost/daotaotructuyen/course/view.php?id=3">Lớp bồi dưỡng Kiến thức quản lý nhà nước ngạch chuyên viên năm 2016</a></h3>
                         </header>
                         <section class="row">
                             <div class="course-image col-sm-3">
-                                <a class="" href="http://lms.hoctap.edu.vn/course/view.php?id=2"><img class="course-img" src="images/thumb.png"></a></div><div class="summary col-sm-9"><p>Hiện nay, việc tổ chức các lớp quản lý nhà nước dành cho đối tượng cán bộ, công chức là yêu cầu rất cấp bách đối với công tác cải cách hành chính.  [...]</p><a class="btn btn-primary btn-el-reg" href="http://lms.hoctap.edu.vn/course/view.php?id=2">Học ngay</a></div>
+                                <a class="" href="http://localhost/lmsonline-master/user/profile.php?id=3">
+                                    <img class="course-img" src="http://localhost/lmsonline-master/theme/lambda/pix/thumb.png" width="100px;">
+                                </a>
+                            </div>
+                            <div class="summary col-sm-9">
+                                <p>Hiện nay, việc tổ chức các lớp quản lý nhà nước dành cho đối tượng cán bộ, công chức là yêu cầu rất cấp bách đối với công tác cải cách hành chính.  [...]</p>
+                                <a class="btn btn-primary btn-el-reg" href="http://localhost/lmsonline-master/user/profile.php?id=2">Học ngay</a>
+                            </div>
                         </section
                     </article>
+                    <article class="" data-courseid="4" id="tab-content-1">
+                        <header class="coursename">
+                            <h3><a class="" href="http://localhost/daotaotructuyen/course/view.php?id=4">Khóa học kỹ năng mềm</a></h3>
+                        </header>
+                        <section class="row">
+                            <div class="course-image col-sm-3">
+                                <a class="" href="http://localhost/lmsonline-master/user/profile.php?id=4">
+                                    <img class="course-img" src="http://localhost/lmsonline-master/theme/lambda/pix/thumb.png" width="100px;">
+                                </a>
+                            </div>
+                            <div class="summary col-sm-9">
+                                <p>Hiện nay, việc tổ chức các lớp quản lý nhà nước dành cho đối tượng cán bộ, công chức là yêu cầu rất cấp bách đối với công tác cải cách hành chính.  [...]</p>
+                                <a class="btn btn-primary btn-el-reg" href="http://localhost/lmsonline-master/user/profile.php?id=2">Học ngay</a>
+                            </div>
+                        </section>
+                    </article>
+                </div>
+                <div role="tabpanel" id="tab-content-2" class="tab-pane fade " aria-labelledby="1-tab">Bạn chưa hoàn thành khóa học nào</div>
+
+
             </section>
         <!--end 1-->
         <!--2-->
@@ -94,35 +167,36 @@ echo $OUTPUT->doctype() ?>
             <div class="right-block col-sm-3">
                 <div class="el-sidebar">
                     <h3 class="el-sidebar-heading">Khóa học đề xuất</h3>
-                    <article class="coursebox" data-courseid="2">
+                    <article class="" data-courseid="2">
                         <section>
                             <div class="coursename">
-                                <a class="" href="http://localhost/daotaotructuyen/course/view.php?id=2">Khóa học bồi dưỡng nghiệp vụ thu chi ngân sách</a>
+                                <a class="" href="http://localhost/lmsonline-master/user/profile.php?id=2">Khóa học bồi dưỡng nghiệp vụ thu chi ngân sách</a>
                             </div>
                             <div class="course-image">
-                                <a class="" href="http://localhost/daotaotructuyen/course/view.php?id=2"><img class="course-img" src="images/thumb.png"></a>
+                                <a class="" href="http://localhost/lmsonline-master/user/profile.php?id=2"><img class="course-img" src="http://localhost/lmsonline-master/theme/lambda/pix/thumb.png"  width="120px; "></a>
                             </div>
                         </section>
                     </article>
                     <!---->
-                    <article class="coursebox" data-courseid="3">
+                    <article class="" data-courseid="3">
                         <section>
                             <div class="coursename">
-                                <a class="" href="http://localhost/daotaotructuyen/course/view.php?id=3">Lớp bồi dưỡng Kiến thức quản lý nhà nước ngạch chuyên viên năm 2016</a>
+                                <a class="" href="http://localhost/lmsonline-master/user/profile.php?id=3">Lớp bồi dưỡng Kiến thức quản lý nhà nước ngạch chuyên viên năm 2016</a>
                             </div>
                             <div class="course-image">
-                                <a class="" href="http://localhost/daotaotructuyen/view.php?id=3"><img class="course-img" src="images/thumb.png"></a>
+                                <a class="" href="http://localhost/lmsonline-master/user/profile.php?id=3"><img class="course-img" src="http://localhost/lmsonline-master/theme/lambda/pix/thumb.png" width="120px;"></a>
                             </div>
                         </section>
                     </article>
                     <!---->
-                    <article class="coursebox" data-courseid="4">
+                    <article class="" data-courseid="4">
                         <section>
                             <div class="coursename">
-                                <a class="" href="http://localhost/daotaotructuyen/course/view.php?id=4">Khóa học kỹ năng mềm</a>
+                                <a class="" href="http://localhost/lmsonline-master/user/profile.php?id=4">Khóa học kỹ năng mềm</a>
                             </div>
                             <div class="course-image">
-                                <a class="" href="http://localhost/daotaotructuyen/course/view.php?id=4"><img class="course-img" src="images/thumb.png"></a>
+                                <a class="" href="http://localhost/lmsonline-master/user/profile.php?id=4"><img class="course-img" src="http://localhost/lmsonline-master/theme/lambda/pix/thumb.png" width="120px;"></a>
+
                             </div>
                         </section>
                     </article>

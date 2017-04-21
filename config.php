@@ -7,7 +7,7 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
-$CFG->dbname    = 'hoctap';
+$CFG->dbname    = '170419143428';
 $CFG->dbuser    = 'root';
 $CFG->dbpass    = '';
 $CFG->prefix    = 'mdl_';
@@ -18,8 +18,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://hoctap.vn';
-$CFG->dataroot  = 'F:\\xampp5.6\\htdocs\\moodledata';
+$CFG->wwwroot   = 'http://localhost/lmsonline';
+$CFG->dataroot  = 'C:\\xampp\\data_lmsonline';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
