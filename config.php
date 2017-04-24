@@ -7,9 +7,9 @@ $CFG = new stdClass();
 $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
-$CFG->dbname    = '170419143428';
+$CFG->dbname    = 'hoctap';
 $CFG->dbuser    = 'root';
-$CFG->dbpass    = '';
+$CFG->dbpass    = '123456';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
@@ -18,8 +18,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://localhost/lmsonline';
-$CFG->dataroot  = 'C:\\xampp\\data_lmsonline';
+$CFG->wwwroot   = 'http://lmsonline.local';
+$CFG->dataroot  = 'D:\\Environment\\xampp\\htdocs\\moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;

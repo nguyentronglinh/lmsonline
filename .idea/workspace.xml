@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65710add-f7b8-4254-9848-235dc8b13d7f" name="Default" comment="" />
+    <list default="true" id="65710add-f7b8-4254-9848-235dc8b13d7f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/lambda/style/all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/theme/lambda/style/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/lambda/layout/columns4.php" afterPath="$PROJECT_DIR$/theme/lambda/layout/columns4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/lambda/lib.php" afterPath="$PROJECT_DIR$/theme/lambda/lib.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/lambda/style/bhxh.css" afterPath="$PROJECT_DIR$/theme/lambda/style/bhxh.css" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,25 +22,106 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <splitter split-orientation="horizontal" split-proportion="0.6332924">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="columns4.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/theme/lambda/layout/columns4.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="241">
+                  <caret line="113" column="49" lean-forward="true" selection-start-line="113" selection-start-column="49" selection-end-line="113" selection-end-column="49" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#section#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <marker date="1493007767102" expanded="true" signature="7563:7874" ph="..." />
+                    <marker date="1493007767102" expanded="true" signature="7658:7831" ph="..." />
+                    <marker date="1493007767102" expanded="true" signature="8305:8389" ph="..." />
+                    <marker date="1493007767102" expanded="true" signature="8504:8556" ph="..." />
+                    <marker date="1493007767102" expanded="true" signature="8677:8805" ph="..." />
+                    <marker date="1493007767102" expanded="true" signature="8826:8896" ph="..." />
+                    <marker date="1493007767102" expanded="true" signature="8876:8896" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="lib.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/theme/lambda/lib.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="123">
+                  <caret line="779" column="28" lean-forward="true" selection-start-line="779" selection-start-column="28" selection-end-line="779" selection-end-column="28" />
+                  <folding>
+                    <marker date="1493008636861" expanded="true" signature="27704:27771" ph="select id fr... " />
+                    <marker date="1493008636861" expanded="true" signature="27877:27953" ph="SELECT * FRO... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bhxh.css" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/bhxh.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-323">
+                  <caret line="11" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="411" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bhxh.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/theme/lambda/style/bhxh.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-425">
+                  <caret line="189" column="15" lean-forward="true" selection-start-line="189" selection-start-column="15" selection-end-line="189" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/theme/lambda/layout/includes/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="27" />
+                  <folding>
+                    <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/theme/lambda/style/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2448">
+                  <caret line="1088" column="0" lean-forward="false" selection-start-line="1088" selection-start-column="0" selection-end-line="1089" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Hệ Thống Đào Tạo Trực Tuyến hướng dịch vụ SOA.html" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/Desktop/Hệ Thống Đào Tạo Trực Tuyến hướng dịch vụ SOA.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>footnote</find>
-      <find>favicon</find>
-      <find>heading</find>
-      <find>head</find>
-      <find>font</find>
-      <find>newmodule</find>
-      <find>logo-header</find>
-      <find>region-footer-middle</find>
-      <find>['home</find>
-      <find>language</find>
-      <find>backto</find>
-      <find>home</find>
-      <find>.logo</find>
-      <find>logo</find>
-      <find>coursebox</find>
       <find>courseimage</find>
       <find>coursebox span4</find>
       <find>vietnq</find>
@@ -48,15 +137,36 @@
       <find>#loggedin-user</find>
       <find>welcome_userpicture defaultuserpic</find>
       <find>welcome_userpicture</find>
+      <find>course ove</find>
+      <find>main_</find>
+      <find>http://lms.hoctap.edu.vn/theme</find>
+      <find>/theme/bhxh/</find>
+      <find>tab-con</find>
+      <find>overflow</find>
+      <find>0%</find>
+      <find>all</find>
+      <find>.tab-content</find>
+      <find>sheet</find>
+      <find>http://localhost/lmsonline-master/</find>
+      <find>theme_lambda_get_new_courses</find>
+      <find>bhxh</find>
+      <find>http://localhost/lmsonline-master</find>
+      <find>overflo</find>
     </findStrings>
     <replaceStrings>
       <replace>widget</replace>
+      <replace>&gt;</replace>
+      <replace>/theme</replace>
+      <replace>/theme/lambda/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>F:\xampp5.6\htdocs\hoctap\theme</dir>
       <dir>F:\xampp5.6\htdocs\hoctap\theme\lambda</dir>
       <dir>F:\xampp5.6\htdocs\hoctap</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,13 +194,21 @@
         <option value="$PROJECT_DIR$/lang/en/moodle.php" />
         <option value="$PROJECT_DIR$/theme/lambda/lang/es/theme_lambda.php" />
         <option value="$PROJECT_DIR$/theme/lambda/lang/en/theme_lambda.php" />
-        <option value="$PROJECT_DIR$/theme/lambda/lib.php" />
         <option value="$PROJECT_DIR$/login/index.php" />
         <option value="$PROJECT_DIR$/theme/bootstrapbase/less/moodle/core.less" />
         <option value="$PROJECT_DIR$/auth/shibboleth/index_form.html" />
-        <option value="$PROJECT_DIR$/theme/bootstrapbase/style/moodle.css" />
-        <option value="$PROJECT_DIR$/theme/lambda/layout/includes/header.php" />
         <option value="$PROJECT_DIR$/theme/lambda/style/style.css" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/blocks/course_overview/renderer.php" />
+        <option value="$PROJECT_DIR$/theme/lambda/all" />
+        <option value="$PROJECT_DIR$/theme/lambda/all.css" />
+        <option value="$PROJECT_DIR$/theme/bootstrapbase/style/moodle.css" />
+        <option value="$PROJECT_DIR$/theme/lambda/config.php" />
+        <option value="$PROJECT_DIR$/theme/lambda/layout/includes/header.php" />
+        <option value="$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/columns4.php" />
+        <option value="$PROJECT_DIR$/theme/lambda/layout/columns4.php" />
+        <option value="$PROJECT_DIR$/theme/lambda/lib.php" />
+        <option value="$PROJECT_DIR$/theme/lambda/style/bhxh.css" />
       </list>
     </option>
   </component>
@@ -106,8 +224,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -124,40 +242,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -167,11 +270,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -185,11 +288,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -207,30 +310,47 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hoctap" />
+              <option name="myItemId" value="lmsonline" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
+              <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lambda" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Hệ Thống Đào Tạo Trực Tuyến hướng dịch vụ SOA_files" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="lib&#9;FILE&#9;file://D:/Environment/xampp/htdocs/lmsonline/theme/lambda/lib.php&#10;theme_lambda_process_css&#9;null&#9;null&#10;config&#9;FILE&#9;file://D:/Environment/xampp/htdocs/lmsonline/theme/lambda/config.php&#10;col&#9;FILE&#9;file://D:/Environment/xampp/htdocs/lmsonline/theme/lambda/layout/columns4.php" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Environment\xampp\htdocs\lmsonline\theme\lambda\style" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Environment\xampp\htdocs\lmsonline\theme\lambda" />
       <recent name="F:\xampp5.6\htdocs\hoctap\mod" />
       <recent name="F:\xampp5.6\htdocs\hoctap\theme\lambda\fonts" />
     </key>
@@ -296,6 +416,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="65710add-f7b8-4254-9848-235dc8b13d7f" name="Default" comment="" />
@@ -307,25 +430,29 @@
       <workItem from="1492218066276" duration="11961000" />
       <workItem from="1492391063721" duration="11745000" />
       <workItem from="1492410611778" duration="8171000" />
+      <workItem from="1492748295069" duration="14265000" />
+      <workItem from="1493000782547" duration="779000" />
+      <workItem from="1493001936428" duration="6096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36140000" />
+    <option name="totallyTimeSpent" value="57280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13219616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22829582" sideWeight="0.50427353" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2286036" sideWeight="0.4957265" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -348,153 +475,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mod/widget/icon.gif" />
-    <entry file="file://$PROJECT_DIR$/mod/widget/index.php" />
-    <entry file="file://$PROJECT_DIR$/help.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod/widget/lang/en_utf8/help/newmodule/mods.html" />
-    <entry file="file://$PROJECT_DIR$/mod/lti/lang/en/lti.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod/widget/lib.php" />
-    <entry file="file://$PROJECT_DIR$/mod/widget/mod_form.php" />
-    <entry file="file://$PROJECT_DIR$/mod/widget/version.php" />
-    <entry file="file://$PROJECT_DIR$/mod/widget/view.php" />
-    <entry file="file://$PROJECT_DIR$/version.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod/workshop/version.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod/newmodule/version.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mod/assign/overrides.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/boost/lang/en/theme_boost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/bootstrapbase/lang/en/theme_bootstrapbase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/clean/lang/en/theme_clean.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/en/my.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/en/langconfig.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/ldap/tests/plugin_test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="494" column="10" lean-forward="false" selection-start-line="494" selection-start-column="10" selection-end-line="494" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/ldap/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="421" column="24" lean-forward="false" selection-start-line="421" selection-start-column="24" selection-end-line="421" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/en/moodle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="2057" column="0" lean-forward="true" selection-start-line="2057" selection-start-column="0" selection-end-line="2057" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/lambda/layout/includes/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="47" column="83" lean-forward="false" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="618" column="37" lean-forward="true" selection-start-line="618" selection-start-column="37" selection-end-line="618" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/moodlelib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="7126" column="17" lean-forward="true" selection-start-line="7126" selection-start-column="9" selection-end-line="7126" selection-end-column="21" />
-          <folding>
-            <marker date="1491985958000" expanded="true" signature="166440:166565" ph="SELECT g.id,... " />
-            <marker date="1491985958000" expanded="true" signature="175788:176024" ph="SELECT cm.*,... " />
-            <marker date="1491985958000" expanded="true" signature="193441:193831" ph="SELECT ue.* " />
-            <marker date="1491985958000" expanded="true" signature="194066:194477" ph="SELECT ue.* " />
-            <marker date="1491985958000" expanded="true" signature="329263:329269" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/lambda/layout/columns1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="70" column="135" lean-forward="true" selection-start-line="70" selection-start-column="93" selection-end-line="70" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme/lambda/lang/es/theme_lambda.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -513,15 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="1872" column="4" lean-forward="false" selection-start-line="1872" selection-start-column="4" selection-end-line="1872" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/theme/more/style/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,18 +503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme/lambda/lib.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="102" column="16" lean-forward="false" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/theme/bootstrapbase/less/moodle/course.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="487" column="21" lean-forward="false" selection-start-line="487" selection-start-column="21" selection-end-line="487" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="112" column="24" lean-forward="false" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
           <caret line="496" column="24" lean-forward="false" selection-start-line="496" selection-start-column="24" selection-end-line="496" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,40 +605,281 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="61" column="12" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="61" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme/bootstrapbase/style/moodle.css">
+    <entry file="file://$PROJECT_DIR$/lib/weblib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="472" column="16" lean-forward="false" selection-start-line="472" selection-start-column="16" selection-end-line="472" selection-end-column="16" />
+        <state relative-caret-position="286">
+          <caret line="323" column="20" lean-forward="false" selection-start-line="323" selection-start-column="20" selection-end-line="323" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blocks/course_overview/renderer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="330" column="86" lean-forward="false" selection-start-line="330" selection-start-column="86" selection-end-line="330" selection-end-column="86" />
+        <state relative-caret-position="828">
+          <caret line="70" column="44" lean-forward="true" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="112" column="32" lean-forward="true" selection-start-line="112" selection-start-column="32" selection-end-line="112" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/bootstrapbase/style/moodle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="11673" column="1" lean-forward="false" selection-start-line="11673" selection-start-column="1" selection-end-line="11673" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/style/teca.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/style/typographie.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/style/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4713">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/style/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/styles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/layout/includes/fonts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/more/style/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/more/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/more/less/moodle.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/dml/moodle_database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="1372" column="20" lean-forward="false" selection-start-line="1372" selection-start-column="20" selection-end-line="1372" selection-end-column="20" />
+          <folding>
+            <marker date="1492747785904" expanded="true" signature="48749:48781" ph="SELECT ${$fi... " />
+            <marker date="1492747785904" expanded="true" signature="54815:54860" ph="SELECT ${$fi... " />
+            <marker date="1492747785904" expanded="true" signature="62807:62844" ph="SELECT ${$fi... " />
+            <marker date="1492747785904" expanded="true" signature="67142:67179" ph="SELECT ${$re... " />
+            <marker date="1492747785904" expanded="true" signature="69126:69163" ph="SELECT ${$re... " />
+            <marker date="1492747785904" expanded="true" signature="77274:77314" ph="SELECT ${$co... " />
+            <marker date="1492747785904" expanded="true" signature="79580:79613" ph="SELECT 'x' F... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/layout/frontpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="84" column="34" lean-forward="false" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4029">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/version.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/renderers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="942">
+          <caret line="167" column="50" lean-forward="false" selection-start-line="167" selection-start-column="26" selection-end-line="167" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/theme/lambda/layout/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="99" column="59" lean-forward="false" selection-start-line="99" selection-start-column="59" selection-end-line="99" selection-end-column="59" />
+        <state relative-caret-position="306">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="27" />
           <folding>
-            <marker date="1492417056809" expanded="false" signature="3333:3352" ph="..." />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/columns4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="707" column="20" lean-forward="true" selection-start-line="707" selection-start-column="20" selection-end-line="707" selection-end-column="20" />
+          <folding>
+            <marker date="1493006210032" expanded="true" signature="26154:26221" ph="select id fr... " />
+            <marker date="1493006210032" expanded="true" signature="26327:26403" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/theme/lambda/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="312" column="23" lean-forward="false" selection-start-line="312" selection-start-column="23" selection-end-line="312" selection-end-column="23" />
+        <state relative-caret-position="2448">
+          <caret line="1088" column="0" lean-forward="false" selection-start-line="1088" selection-start-column="0" selection-end-line="1089" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/columns4(1).php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="109" column="133" lean-forward="true" selection-start-line="109" selection-start-column="32" selection-end-line="109" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="430" column="7" lean-forward="false" selection-start-line="430" selection-start-column="7" selection-end-line="430" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Hệ Thống Đào Tạo Trực Tuyến hướng dịch vụ SOA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/layout/columns4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="113" column="49" lean-forward="true" selection-start-line="113" selection-start-column="49" selection-end-line="113" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#article#0;n#div#2;n#section#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1493007767102" expanded="true" signature="7563:7874" ph="..." />
+            <marker date="1493007767102" expanded="true" signature="7658:7831" ph="..." />
+            <marker date="1493007767102" expanded="true" signature="8305:8389" ph="..." />
+            <marker date="1493007767102" expanded="true" signature="8504:8556" ph="..." />
+            <marker date="1493007767102" expanded="true" signature="8677:8805" ph="..." />
+            <marker date="1493007767102" expanded="true" signature="8826:8896" ph="..." />
+            <marker date="1493007767102" expanded="true" signature="8876:8896" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/lib(1).php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="708" column="12" lean-forward="true" selection-start-line="708" selection-start-column="12" selection-end-line="708" selection-end-column="12" />
+          <folding>
+            <marker date="1493007443552" expanded="true" signature="26135:26202" ph="select id fr... " />
+            <marker date="1493007443552" expanded="true" signature="26308:26384" ph="SELECT * FRO... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="779" column="28" lean-forward="true" selection-start-line="779" selection-start-column="28" selection-end-line="779" selection-end-column="28" />
+          <folding>
+            <marker date="1493008636861" expanded="true" signature="27704:27771" ph="select id fr... " />
+            <marker date="1493008636861" expanded="true" signature="27877:27953" ph="SELECT * FRO... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/bhxh.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="411" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/theme/lambda/style/bhxh.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="189" column="15" lean-forward="true" selection-start-line="189" selection-start-column="15" selection-end-line="189" selection-end-column="15" />
           <folding />
         </state>
       </provider>

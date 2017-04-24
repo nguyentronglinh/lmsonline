@@ -178,10 +178,10 @@ a.singinprovider .social-button::before {
     margin-top: 25px;
 }
 .tab-content>.active {
-display: block;
+    display: block;
 }
 .tab-content>.tab-pane {
-display: none;
+    display: none;
 }
 .fade.in {
     opacity: 1;
@@ -209,12 +209,17 @@ display: none;
 }
 .col-sm-3 {
     width: 60%;
+    position: relative;
+    min-height: 1px;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
 }
 .col-sm-9 {
-    width: 60%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 10px;
+    width: 40%;
+    position: relative;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+    /*margin-bottom: 10px;*/
 }
 
 .quizattemptcounts a, .resourceworkaround a, .introattachments-image div a, .box a, .assignment-info-fix a, .lastcol a, .noti-content a {
@@ -389,4 +394,19 @@ ul#enroltabs>li {
 .nav>li {
     position: relative;
     display: block;
+}
+.col-md-3{
+    width: 25%;
+    position: relative;
+    /*min-height: 1px;*/
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+
+}
+.col-md-9 {
+    width: 75%;
+    position: relative;
+    /*padding-left: 15px;*/
+    /*padding-right: 15px;*/
+    /*margin-bottom: 10px;*/
 }
